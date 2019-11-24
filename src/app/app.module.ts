@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PostHeaderComponent } from './components/post-header/post-header.component';
+import { PostImgComponent } from './components/post-img/post-img.component';
+import { PostLikeComponent } from './components/post-like/post-like.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PostHeaderComponent,
+    PostImgComponent,
+    PostLikeComponent
   ],
   imports: [
     BrowserModule,
